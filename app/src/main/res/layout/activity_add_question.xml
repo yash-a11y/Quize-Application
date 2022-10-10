@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.add_question">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/add_tlbr"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        app:title="Add Question"
+        android:background="@color/grey"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/number_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="question number"
+        />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/question_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="question"
+        />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/op1_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="option 1"
+        />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/op2_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="option 2"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/op3_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="option 3"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/op4_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="option 4"
+        android:layout_margin="10dp"
+        />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/ans_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ans number"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/add_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>
